@@ -1,8 +1,8 @@
 package tech.bosstop.commons.structures;
 
 public class Entity {
-    private int health = 100;
-    private int defense = 50;
+    protected int health = 100;
+    protected int defense = 50;
 
     public void setHealth(int health) {
         this.health = health;
