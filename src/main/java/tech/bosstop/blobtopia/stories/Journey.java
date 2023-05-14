@@ -4,10 +4,14 @@ import tech.bosstop.blobtopia.Blobtopia;
 
 public class Journey {
 
-    Blobtopia blobtopia = Blobtopia.getInstance();
+    private static Blobtopia blobtopia = Blobtopia.getInstance();
 
     public static void start() {
 
+        blobtopia.getConsole().voice("You are on a journey!");
+
+        
+        
     }
 
 }

@@ -1,4 +1,4 @@
-package tech.bosstop.commons.structures;
+package tech.bosstop.commons.structures.core;
 
 public class Item {
     private String name;

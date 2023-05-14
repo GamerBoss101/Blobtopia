@@ -1,5 +1,4 @@
-
-package tech.bosstop.commons.structures;
+package tech.bosstop.commons.structures.core;
 
 public enum PlayerClass {
     WARRIOR,

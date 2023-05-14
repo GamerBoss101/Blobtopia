@@ -1,7 +1,7 @@
 package tech.bosstop.blobtopia.player;
 
-import tech.bosstop.commons.structures.Entity;
-import tech.bosstop.commons.structures.PlayerClass;
+import tech.bosstop.commons.structures.core.PlayerClass;
+import tech.bosstop.commons.structures.core.Entity;
 
 public class Player extends Entity {
 
@@ -80,5 +80,5 @@ public class Player extends Entity {
 
         return this.inventory.getWeapon().getDamage() + (this.level * 2);
     }
-
+    
 }

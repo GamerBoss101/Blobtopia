@@ -1,8 +1,11 @@
 package tech.bosstop.blobtopia.player;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import tech.bosstop.commons.structures.Item;
+import tech.bosstop.blobtopia.core.items.weapons.WoodSword;
+import tech.bosstop.commons.structures.core.Item;
+import tech.bosstop.commons.structures.core.Weapon;
 
 public class Inventory {
 
@@ -11,9 +14,13 @@ public class Inventory {
     private Item legs;
     private Item feet;
 
-    private Item weapon;
+    private Weapon weapon;
 
     private List<Item> items = new ArrayList<Item>();
+
+    Inventory() {
+        this.weapon = new WoodSword();
+    }
 
     public Item getHead() {
         return head;
@@ -31,7 +38,7 @@ public class Inventory {
         return feet;
     }
 
-    public Item getWeapon() {
+    public Weapon getWeapon() {
         return weapon;
     }
 
@@ -55,7 +62,7 @@ public class Inventory {
         this.feet = feet;
     }
 
-    public void setWeapon(Item weapon) {
+    public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
 

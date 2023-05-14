@@ -1,4 +1,4 @@
-package tech.bosstop.commons.structures;
+package tech.bosstop.commons.structures.core;
 
 public enum ItemType {
     WEAPON,

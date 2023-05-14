@@ -1,12 +1,11 @@
 package tech.bosstop.blobtopia.core.items.armor;
 
-import tech.bosstop.commons.structures.Item;
-import tech.bosstop.commons.structures.ItemType;
+import tech.bosstop.commons.structures.core.Armor;
 
-public class Shirt extends Item {
+public class Shirt extends Armor {
 
     public Shirt() {
-        super("Shirt", 2001, ItemType.ARMOR);
+        super("Shirt", 2001, 0, 0);
     }
 
 }
